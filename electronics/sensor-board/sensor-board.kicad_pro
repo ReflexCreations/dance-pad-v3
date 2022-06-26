@@ -336,6 +336,10 @@
     [
       "fbd51e53-5d1f-4a7f-b312-f18fe84b0937",
       "sensor_handler4"
+    ],
+    [
+      "25f14e9b-1580-4705-adba-a3213de99b43",
+      "controller"
     ]
   ],
   "text_variables": {}

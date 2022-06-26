@@ -11,7 +11,7 @@ The V3 sensor board iterates upon the V2 'Panel board' and 'I/O board' electroni
 - The sensor input has been exposed to the user, allowing a choice of load cell, force sensitive resistor or traditional sensor options.
 - The microcontroller choice has been migrated to STM32F302 for part availability and long term maintenance.
 - The microcontroller upgrade also exposes DFU update capabilities, allowing firmware flashing over USB. Firmware updates are now available within the updated python utility.
-- The ST-Link functionality has been changed to JTAG to allow more standardized debugging for developers.
+- The ST-Link functionality has been changed to Async Serial Wire to allow more debugging output for developers.
 - There is now greater ESD protection for USB and communications.
 - The status LEDs now come in 3 separate colours for easier identification.
 - A new set of board connectors is available for 'backplanes'.
