@@ -340,6 +340,22 @@
     [
       "25f14e9b-1580-4705-adba-a3213de99b43",
       "controller"
+    ],
+    [
+      "b66868bd-039f-4633-b408-2135518bdcfa",
+      "can_bus"
+    ],
+    [
+      "bd68338d-b414-474f-9e70-b480d883e690",
+      "debug"
+    ],
+    [
+      "2703e0fe-55f7-413a-90e9-fc7993be0d6b",
+      "usb"
+    ],
+    [
+      "8b882a51-68df-4ef1-b34f-d8b84395f0a4",
+      "led_output"
     ]
   ],
   "text_variables": {}

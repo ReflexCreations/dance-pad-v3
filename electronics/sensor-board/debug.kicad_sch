@@ -1,0 +1,27 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 63d2e6fd-ff67-4131-ae5c-2ef7664cb9e2)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "NRST" (shape output) (at 128.27 50.8 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 802fcd16-cab5-4d47-b1c2-8f07b5b3c069)
+  )
+  (hierarchical_label "SWO" (shape input) (at 109.22 44.45 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid b39f1ae9-044f-48b3-8b9a-675f9dd6b093)
+  )
+  (hierarchical_label "SWCLK" (shape output) (at 147.32 72.39 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid da0ef55f-366d-4f98-9b94-373fb9a8a720)
+  )
+  (hierarchical_label "SWDIO" (shape bidirectional) (at 147.32 69.85 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ff1ab8bb-3ea2-4d90-9249-976f6bfd5cc1)
+  )
+)

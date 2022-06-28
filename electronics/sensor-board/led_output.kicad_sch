@@ -1,0 +1,27 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid ac5ce16e-39aa-41d2-ad3e-4f4fca017457)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "LED_SEG_DR" (shape input) (at 139.7 100.33 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 309237b1-2e65-4a48-b230-c7ab76079f57)
+  )
+  (hierarchical_label "LED_SEG_DL" (shape input) (at 139.7 97.79 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 699cc7ef-3c27-4f47-ae6c-f76b7a4ae19c)
+  )
+  (hierarchical_label "LED_SEG_UL" (shape input) (at 139.7 92.71 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 73ae23e6-eb22-457f-b1c8-4662b04aa269)
+  )
+  (hierarchical_label "LED_SEG_UR" (shape input) (at 139.7 95.25 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 74ab50f9-96d1-4de1-af3d-67561feb40a3)
+  )
+)
