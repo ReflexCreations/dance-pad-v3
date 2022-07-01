@@ -10,9 +10,9 @@ Power - C475104
 
 SMPS -
 Controller - C9864
-Inductor - C408452 
-Output Capacitor - C2168120 
-Input Capacitor -  C13585
-Schottky Diode -  C22452
-10k resistor - C25804 
-3.3k resistor - C22978 
+Inductor - C408452
+Output Capacitor -  C23742
+Input Capacitor - C13585
+Schottky Diode - C22452
+10k resistor - C25804
+3.3k resistor - C22978
