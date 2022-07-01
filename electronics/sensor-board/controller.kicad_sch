@@ -844,8 +844,8 @@
   )
 
   (no_connect (at 109.22 121.92) (uuid 03384dd4-fb77-463d-93a9-44659416898e))
-  (no_connect (at 142.24 119.38) (uuid 03384dd4-fb77-463d-93a9-44659416898e))
-  (no_connect (at 142.24 132.08) (uuid 03384dd4-fb77-463d-93a9-44659416898e))
+  (no_connect (at 142.24 119.38) (uuid 03384dd4-fb77-463d-93a9-44659416898f))
+  (no_connect (at 142.24 132.08) (uuid 03384dd4-fb77-463d-93a9-446594168990))
 
   (wire (pts (xy 72.39 148.59) (xy 77.47 148.59))
     (stroke (width 0) (type default) (color 0 0 0 0))
