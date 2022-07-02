@@ -1,21 +1,62 @@
-Green LED - C72043  - N/A
-Yellow LED - C72038 - 52R
-Blue LED - C72041 - 20R
-Crystal - C115962 
-DIP switches - C99413 
-Digital Isolator - C471594
-CM Choke - C54888 
-ESD Protection - C7519 
-Power - C475104 
-
-SMPS -
-Controller - C9864
-Inductor - C408452
-Output Capacitor -  C23742
-Input Capacitor - C13585
-Schottky Diode - C22452
-10k resistor - C25804
-3.3k resistor - C22978
-
-Pi filter
+Inductors:
 FB - C1017
+15u - C182182 
+
+Conns:
+PH2 Connectors: C722763 
+2P header: C492401 
+8P header: C124386
+6p header: C124380
+USB-C: C167321
+Barrel: C388625 
+
+Diodes:
+D1 Green LED: C72043
+D2 Yellow LED: C72038
+D3 Blue LED: C72041
+Schottky Diode: C22452
+
+Switches:
+DIP Switches: C99421
+Push Switches: C318884
+
+ICs:
+LMV321: C7972
+INA826: C38433
+STM32F302C8Tx: C90795 
+TJA1042T-3: C132227 
+74HCT245: C5980 
+AMS1117-3.3: C6186 
+TPS5430DDA: C9864
+8MHz Crystal: C115962 
+
+Caps:
+100n: C14663
+4.7n: C53987 
+470n: C1623 
+10u: C96446 
+22p: C1653 
+100p: C14858 
+470n: C1623 
+4.7u: C19666 
+100u: C23742 
+4.7n: C53987
+10u: C13585
+22u: C12891
+
+Res:
+10k: C25804
+33k: C4216
+3.3k: C22978
+22R: C23345
+5.1k: C23186 
+1.5k: C22843 
+27R: C25190 
+33R: C23140 
+330R: C23138
+100R: C22775
+120R: C22787  
+220R: C22962
+47R: C23182
+56R: C25196
+470R: C23179
