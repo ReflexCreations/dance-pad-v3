@@ -16,3 +16,6 @@ Input Capacitor - C13585
 Schottky Diode - C22452
 10k resistor - C25804
 3.3k resistor - C22978
+
+Pi filter
+FB - C1017
