@@ -9,6 +9,7 @@ PH2 Connectors: C722763
 6p header: C124380
 USB-C: C167321
 Barrel: C388625 
+M3 Nut: C2915632
 
 Diodes:
 D1 Green LED: C72043
@@ -43,6 +44,7 @@ Caps:
 4.7n: C53987
 10u: C13585
 22u: C12891
+1u: C15849 
 
 Res:
 10k: C25804
