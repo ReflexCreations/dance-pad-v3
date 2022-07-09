@@ -489,7 +489,7 @@
   )
 
   (text "USB for debug, programming and PC data (not a power supply)"
-    (at 20.32 19.05 0)
+    (at 20.32 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c659a63d-0ec2-4187-9da7-8f5cacc25560)
   )
