@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "Inamp")(type "Legacy")(uri "${KIPRJMOD}/component-library/ina826.lib")(options "")(descr ""))
+  (lib (name "MCU")(type "Legacy")(uri "${KIPRJMOD}/component-library/eec.lib")(options "")(descr ""))
 )

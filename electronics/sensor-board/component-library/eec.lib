@@ -1,0 +1,103 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# STMicroelectronics STM32G431CBT6
+#
+DEF STM32G431CBT6 U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "STM32G431CBT6" 0 300 50 H V L CNN 
+F2 "STMicroelectronics-LQFP48-5B-0-2-*" 0 400 50 H I L CNN 
+F3 "https://www.st.com/resource/en/datasheet/stm32g431cb.pdf" 0 500 50 H I L CNN 
+F4 "32KBytes" 0 600 50 H I L CNN "RAM size"
+F5 "+85°C" 0 700 50 H I L CNN "ambient temperature range high"
+F6 "-40°C" 0 800 50 H I L CNN "ambient temperature range low"
+F7 "No" 0 900 50 H I L CNN "automotive"
+F8 "IC" 0 1000 50 H I L CNN "category"
+F9 "Arm Cortex-M4" 0 1100 50 H I L CNN "core architecture"
+F10 "32bits" 0 1200 50 H I L CNN "data bus width"
+F11 "Integrated Circuits (ICs)" 0 1300 50 H I L CNN "device class L1"
+F12 "Embedded Processors and Controllers" 0 1400 50 H I L CNN "device class L2"
+F13 "Microcontrollers" 0 1500 50 H I L CNN "device class L3"
+F14 "MAINSTREAM ARM CORTEX-M4+ MCU 17" 0 1600 50 H I L CNN "digikey description"
+F15 "497-19473-ND" 0 1700 50 H I L CNN "digikey part number"
+F16 "170MHz" 0 1800 50 H I L CNN "frequency"
+F17 "1.6mm" 0 1900 50 H I L CNN "height"
+F18 "I2C,SPI,UART,USART,CAN,USB,LIN,IrDA,I2S" 0 2000 50 H I L CNN "interface"
+F19 "Yes" 0 2100 50 H I L CNN "lead free"
+F20 "ab40fe06b39d1fa1" 0 2200 50 H I L CNN "library id"
+F21 "STMicroelectronics" 0 2300 50 H I L CNN "manufacturer"
+F22 "+105°C" 0 2400 50 H I L CNN "max junction temp"
+F23 "3.6V" 0 2500 50 H I L CNN "max supply voltage"
+F24 "128KBytes" 0 2600 50 H I L CNN "memory size"
+F25 "FLASH" 0 2700 50 H I L CNN "memory type"
+F26 "1.62V" 0 2800 50 H I L CNN "min supply voltage"
+F27 "511-STM32G431CBT6" 0 2900 50 H I L CNN "mouser part number"
+F28 "1" 0 3000 50 H I L CNN "number of A/D converters"
+F29 "17" 0 3100 50 H I L CNN "number of ADC channels"
+F30 "38" 0 3200 50 H I L CNN "number of I/Os"
+F31 "3" 0 3300 50 H I L CNN "number of I2C channels"
+F32 "31" 0 3400 50 H I L CNN "number of PWM channels"
+F33 "3" 0 3500 50 H I L CNN "number of SPI channels"
+F34 "4" 0 3600 50 H I L CNN "number of UART channels"
+F35 "1" 0 3700 50 H I L CNN "number of USB channels"
+F36 "1" 0 3800 50 H I L CNN "number of cores"
+F37 "14" 0 3900 50 H I L CNN "number of timers/counters"
+F38 "LQFP48" 0 4000 50 H I L CNN "package"
+F39 "Yes" 0 4100 50 H I L CNN "rohs"
+F40 "0.05mm" 0 4200 50 H I L CNN "standoff height"
+F41 "+85°C" 0 4300 50 H I L CNN "temperature range high"
+F42 "-40°C" 0 4400 50 H I L CNN "temperature range low"
+DRAW
+X PA0 8 100 -900 100 R 40 40 1 1 B 
+X PA1 9 100 -1000 100 R 40 40 1 1 B 
+X PA2 10 100 -1100 100 R 40 40 1 1 B 
+X PA3 11 100 -1200 100 R 40 40 1 1 B 
+X PA4 12 100 -1300 100 R 40 40 1 1 B 
+X PA5 13 100 -1400 100 R 40 40 1 1 B 
+X PA6 14 100 -1500 100 R 40 40 1 1 B 
+X PA7 15 100 -1600 100 R 40 40 1 1 B 
+X PA8 30 100 -1700 100 R 40 40 1 1 B 
+X PA9 31 100 -1800 100 R 40 40 1 1 B 
+X PA10 32 100 -1900 100 R 40 40 1 1 B 
+X PA11 33 100 -2000 100 R 40 40 1 1 B 
+X PA12 34 100 -2100 100 R 40 40 1 1 B 
+X PA13 37 100 -2200 100 R 40 40 1 1 B 
+X PA14 38 100 -2300 100 R 40 40 1 1 B 
+X PA15 39 100 -2400 100 R 40 40 1 1 B 
+X PG10/~RST~ 7 100 -2900 100 R 40 40 1 1 B 
+X VBAT 1 100 0 100 R 40 40 1 1 W 
+X VDD 24 100 -200 100 R 40 40 1 1 W 
+X VDD 36 100 -300 100 R 40 40 1 1 W 
+X VDD 48 100 -400 100 R 40 40 1 1 W 
+X VDDA 21 100 -500 100 R 40 40 1 1 W 
+X VREF+ 20 100 -700 100 R 40 40 1 1 W 
+X VSSA 19 2200 -2900 100 L 40 40 1 1 W 
+X PB0 16 2200 0 100 L 40 40 1 1 B 
+X PB1 17 2200 -100 100 L 40 40 1 1 B 
+X PB2 18 2200 -200 100 L 40 40 1 1 B 
+X PB3 40 2200 -300 100 L 40 40 1 1 B 
+X PB4 41 2200 -400 100 L 40 40 1 1 B 
+X PB5 42 2200 -500 100 L 40 40 1 1 B 
+X PB6 43 2200 -600 100 L 40 40 1 1 B 
+X PB7 44 2200 -700 100 L 40 40 1 1 B 
+X PB8-BOOT0 45 2200 -800 100 L 40 40 1 1 B 
+X PB9 46 2200 -900 100 L 40 40 1 1 B 
+X PB10 22 2200 -1000 100 L 40 40 1 1 B 
+X PB11 25 2200 -1100 100 L 40 40 1 1 B 
+X PB12 26 2200 -1200 100 L 40 40 1 1 B 
+X PB13 27 2200 -1300 100 L 40 40 1 1 B 
+X PB14 28 2200 -1400 100 L 40 40 1 1 B 
+X PB15 29 2200 -1500 100 L 40 40 1 1 B 
+X PC13 2 2200 -1800 100 L 40 40 1 1 B 
+X PC14-OSC32_IN 3 2200 -1900 100 L 40 40 1 1 B 
+X PC15-OSC32_OUT 4 2200 -2000 100 L 40 40 1 1 B 
+X PF0-OSC_IN 5 100 -2600 100 R 40 40 1 1 B 
+X PF1-OSC_OUT 6 100 -2700 100 R 40 40 1 1 B 
+X VSS 23 2200 -2600 100 L 40 40 1 1 W 
+X VSS 35 2200 -2700 100 L 40 40 1 1 W 
+X VSS 47 2200 -2800 100 L 40 40 1 1 W 
+S 200 100 2100 -3000 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
