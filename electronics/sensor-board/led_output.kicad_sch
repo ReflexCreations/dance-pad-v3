@@ -973,7 +973,7 @@
     (property "Value" "Conn_02x04_Odd_Even" (id 1) (at 82.55 29.3171 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" (id 2) (at 81.28 34.29 0)
+    (property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" (id 2) (at 81.28 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 81.28 34.29 0)

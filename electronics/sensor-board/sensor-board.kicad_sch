@@ -1056,7 +1056,7 @@
       (reference "J16") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G")
     )
     (path "/8b882a51-68df-4ef1-b34f-d8b84395f0a4/be06eaf9-e59b-4cca-9a1a-d403de0fb6ac"
-      (reference "J17") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
+      (reference "J17") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical")
     )
     (path "/627cf7bc-cb3d-450f-bc19-f6d01e2ac6e8/d3d81bb7-6992-43d0-b41b-fe766c6890a3"
       (reference "J18") (unit 1) (value "Barrel_Jack_MountingPin") (footprint "sensor-board:BarrelJack_MP")
