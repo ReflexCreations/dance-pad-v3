@@ -363,6 +363,10 @@
     )
   )
 
+  (gr_line (start 145.5 76.6) (end 148.6 79.7) (layer "B.SilkS") (width 0.6) (tstamp 43cefec2-92c3-4210-a1dd-e43bc8559a9d))
+  (gr_line (start 148.6 79.7) (end 142.4 79.7) (layer "B.SilkS") (width 0.6) (tstamp 8eef07fb-ecc7-433e-a378-a980d8aee066))
+  (gr_line (start 145.5 76.6) (end 145.5 82.8) (layer "B.SilkS") (width 0.6) (tstamp bca22564-c4ed-4a2c-b5d8-8ae8814f7ece))
+  (gr_line (start 145.5 76.6) (end 142.4 79.7) (layer "B.SilkS") (width 0.6) (tstamp f6c52ad0-a3b5-4746-8219-2c52a97c4579))
   (gr_line (start 153 75) (end 138 75) (layer "Edge.Cuts") (width 0.2) (tstamp 2d47997c-8dc4-4069-a5ee-3a5bbc537113))
   (gr_arc (start 136 77) (mid 136.585786 75.585786) (end 138 75) (layer "Edge.Cuts") (width 0.2) (tstamp 4408f32f-4489-49f5-8489-ae8ee92cd7a6))
   (gr_line (start 155 103) (end 155 77) (layer "Edge.Cuts") (width 0.2) (tstamp 60118343-12d8-426c-97d7-95817cb07900))
