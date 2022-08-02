@@ -66,8 +66,8 @@
         }
       ],
       "drc_exclusions": [
-        "silk_over_copper|216930000|123400000|dba99aca-24ca-4a96-b5c2-8ecac6c6de97|43fd5e99-356b-42cf-bd6c-4756fbf3e551",
-        "silk_over_copper|225870000|123400000|dba99aca-24ca-4a96-b5c2-8ecac6c6de97|d94cb555-d0d2-462b-9ecb-577e0fe6aa66"
+        "silk_over_copper|216930000|123400000|5fe1c2d2-147a-4073-b972-a32e87dc9aba|43fd5e99-356b-42cf-bd6c-4756fbf3e551",
+        "silk_over_copper|225870000|123400000|5fe1c2d2-147a-4073-b972-a32e87dc9aba|d94cb555-d0d2-462b-9ecb-577e0fe6aa66"
       ],
       "meta": {
         "version": 2
@@ -366,7 +366,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sensor-board.kicad_pro",
+    "filename": "panel_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -400,7 +400,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "outputs/panel_board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

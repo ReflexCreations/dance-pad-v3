@@ -1,0 +1,7 @@
+PANEL-DEV is default assembly
+PANEL-CONTROLLER: Remove DEBUG
+PANEL-PRO: Remove USB, remove DEBUG, remove POWER CONN
+PANEL-BASIC-LEDS: Remove LOAD CELLS,  remove DEBUG, remove POWER CONN
+PANEL-BASIC: Remove LOAD CELLS, remove LEDS, remove DEBUG, remove POWER CONN
+LINK-LEDS: Remove SENSORS, remove USB, remove DEBUG, remove POWER CONN
+LINK: Remove SENSORS, remove LEDS, remove USB, remove DEBUG, remove POWER CONN

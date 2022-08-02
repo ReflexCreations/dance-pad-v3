@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name "TPS")(type "KiCad")(uri "${KIPRJMOD}/component-library")(options "")(descr ""))
   (lib (name "component-library")(type "KiCad")(uri "${KIPRJMOD}/component-library.pretty")(options "")(descr ""))
-  (lib (name "sensor-board")(type "KiCad")(uri "${KIPRJMOD}/component-library/sensor-board.pretty")(options "")(descr ""))
+  (lib (name "sensor-board")(type "KiCad")(uri "${KIPRJMOD}/component-library/panel_board.pretty")(options "")(descr ""))
 )
