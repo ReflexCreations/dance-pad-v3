@@ -832,7 +832,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 220a3836-3c44-4f99-9b72-9b288f1d9fa3)
   )
-  (text "Instrumentation Amplifier for Load Cell Sensor (Typically GML 670, 50kg) - 1kHz cut-off CM/DM filtering. 330x gain. Rail-to-rail output.\n470R resistor prevents internal saturation in first stage of inamp due to non rail-to-rail performance internally with CM amplification."
+  (text "Instrumentation Amplifier for Load Cell Sensor (Typically GML 670, 50kg) - 1kHz cut-off DM filtering. 330x gain. Rail-to-rail output.\n470R resistor prevents internal saturation in first stage of inamp due to non rail-to-rail performance internally with CM amplification."
     (at 16.51 19.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2b8fe3df-c4b0-4006-9884-17d6e767656d)

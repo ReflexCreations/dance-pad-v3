@@ -321,6 +321,41 @@
         )
       )
     )
+    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (id 0) (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole_Pad" (id 1) (at 0 4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole with connection" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*Pad*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_Pad_0_1"
+        (circle (center 0 1.27) (radius 1.27)
+          (stroke (width 1.27) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "MountingHole_Pad_1_1"
+        (pin input line (at 0 -2.54 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:+5V" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -445,6 +480,9 @@
   (junction (at 74.93 46.99) (diameter 0) (color 0 0 0 0)
     (uuid f93fab7f-4bcd-4532-a8d5-12471f9a1a44)
   )
+
+  (no_connect (at 25.4 76.2) (uuid ab907ebb-225e-43a7-acb6-1abf5d48e25f))
+  (no_connect (at 33.02 76.2) (uuid ab907ebb-225e-43a7-acb6-1abf5d48e25f))
 
   (wire (pts (xy 74.93 41.91) (xy 74.93 44.45))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -889,6 +927,24 @@
     (pin "2" (uuid 109e5606-7603-4101-bc47-a7bc08a74155))
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 33.02 73.66 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 8afa1fd2-7e98-412c-aede-8de385d97a18)
+    (property "Reference" "H4" (id 0) (at 30.48 71.5553 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (id 1) (at 30.48 74.0922 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad" (id 2) (at 33.02 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 33.02 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e8b1da35-f2a3-4da5-8bd7-35d3381de975))
+  )
+
   (symbol (lib_id "power:GND") (at 90.17 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8ed777de-8094-4ab3-bcee-f9d79b796a51)
@@ -919,6 +975,24 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 40af1a4f-9821-4336-baf7-e59e5a8c0410))
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 25.4 73.66 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid a81fc8cc-0edd-42f7-bc39-7fdfc3d10378)
+    (property "Reference" "H3" (id 0) (at 22.86 71.5553 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (id 1) (at 22.86 74.0922 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad" (id 2) (at 25.4 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 25.4 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e03c216a-6d5c-4228-9e67-9516dd05ca99))
   )
 
   (symbol (lib_id "Device:R_Small") (at 35.56 46.99 90) (unit 1)
@@ -1037,5 +1111,75 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0ece894b-c7b7-468b-9de0-fe552d8015e2))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/461e0b65-0fb8-4924-9a86-ecf473ffba58"
+      (reference "#PWR096") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/277de0f0-3211-4bd1-b44f-edce4479dc5e"
+      (reference "#PWR097") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9244ab2d-6ee8-49fa-9ad3-e2a4e003c7fc"
+      (reference "#PWR098") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/18e83fbf-8ee7-4c40-a225-e25221b68051"
+      (reference "#PWR099") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2f5e3d2b-d1ac-4ed0-925a-d1d741086e74"
+      (reference "#PWR0100") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/1a6bda49-61b3-4d06-ac42-bd2778460cec"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/32735fec-a454-4083-a969-1c6caf13a039"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ef98ee5c-5e6d-4bb9-a299-aed4269ec334"
+      (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/8ed777de-8094-4ab3-bcee-f9d79b796a51"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ca6142fe-4e98-448d-8eb5-8dbcef3187c3"
+      (reference "C40") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/be06eaf9-e59b-4cca-9a1a-d403de0fb6ac"
+      (reference "J17") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical")
+    )
+    (path "/b79e35f8-cb90-4c40-a467-833e9e1e6874"
+      (reference "R43") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/0d3ef995-8c12-4bfe-ab5d-517833ba9813"
+      (reference "R44") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/daa0c869-f76b-4c3d-808b-d79280f0317c"
+      (reference "R45") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/ae3f2756-756a-4bf9-a176-b6f9fc146d86"
+      (reference "R46") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/71d70e52-25fd-4513-ac6a-555ae367ed03"
+      (reference "R47") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/1277724d-44b8-4596-89b4-ea1562a8e479"
+      (reference "R48") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/524fbb20-d3c2-4531-8f54-a1370d04835b"
+      (reference "R49") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/250683ea-e760-419e-883e-578659661b66"
+      (reference "R50") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/bcb650d9-eced-4e1f-aeb5-548a6335ffd5"
+      (reference "R51") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/5dc313ee-530d-4194-b50e-61b805755b2f"
+      (reference "U11") (unit 1) (value "74HCT245") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
+    )
   )
 )
