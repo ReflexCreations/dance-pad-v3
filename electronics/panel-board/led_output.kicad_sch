@@ -482,7 +482,7 @@
   )
 
   (no_connect (at 25.4 76.2) (uuid ab907ebb-225e-43a7-acb6-1abf5d48e25f))
-  (no_connect (at 33.02 76.2) (uuid ab907ebb-225e-43a7-acb6-1abf5d48e25f))
+  (no_connect (at 33.02 76.2) (uuid ab907ebb-225e-43a7-acb6-1abf5d48e260))
 
   (wire (pts (xy 74.93 41.91) (xy 74.93 44.45))
     (stroke (width 0) (type default) (color 0 0 0 0))
