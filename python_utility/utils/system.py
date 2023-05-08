@@ -1,11 +1,17 @@
+import os
+import sys
+parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(parent_dir)
 import platform
 import importlib
 
 _system = platform.system()
 
 if _system == "Linux":
-    system = importlib.import_module(".system_linux", "utils").SystemLinux
+    SystemClass = importlib.import_module(".system_linux", "utils").SystemLinux
 elif _system == "Windows":
-    system = importlib.import_module(".system_windows", "utils").SystemWindows
+    SystemClass = importlib.import_module(".system_windows", "utils").SystemWindows
 else:
-    system = importlib.import_module(".system_unsupported", "utils").SystemUnsupported
+    SystemClass = importlib.import_module(".system_unsupported", "utils").SystemUnsupported
+
+system = SystemClass()

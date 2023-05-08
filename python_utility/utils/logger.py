@@ -1,33 +1,55 @@
 import logging
 import sys
-from .observer import Subject
+from PyQt5.QtCore import QObject, pyqtSignal
 
 class LoggerHandler(logging.Handler): 
     def __init__(self, formatter, level):
         super().__init__(level)
         self.setFormatter(formatter)
-        self.last_log = ""
 
     def emit(self, record):
-        self.last_log = self.format(record)
+        formatted_record = self.format(record)
+        self.logger.new_message.emit(formatted_record)
 
-class Logger(Subject):
-    def __init__(self):
-        self.logger = logging.getLogger()
+class Logger(QObject, logging.Logger):
+    new_message = pyqtSignal(str)
+
+    def __init__(self, name, level=logging.DEBUG):
+        QObject.__init__(self, name=name)
+        logging.Logger.__init__(self, name=name)
+        self.logger = logging.getLogger(name)
         formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-
         handler = LoggerHandler(formatter, logging.DEBUG)
+        handler.logger = self
         self.logger.setLevel(logging.DEBUG)
         self.logger.addHandler(handler)
+    
+    def _add_message(self, level, message, traceback):
+        exc_info = None
+        if traceback:
+            exc_type, exc_value, tb = sys.exc_info()
+            if tb is not None and tb.tb_next is not None:
+                while tb.tb_next is not None:
+                    tb = tb.tb_next
+                exc_info = (exc_type, exc_value, tb)
+        self.logger.log(level, message, exc_info=exc_info)
 
-        Subject.__init__(self)
-        sys.excepthook = self.exception_hook
+    def add_critical(self, message, traceback=True):
+        self._add_message(logging.CRITICAL, message, traceback)
 
-    def exception_hook(self, exc_type, exc_value, exc_traceback):
-        self.add_message("Uncaught exception: {} - {}".format(exc_type.__name__, exc_value), level=logging.ERROR)
+    def add_error(self, message, traceback=True):
+        self._add_message(logging.ERROR, message, traceback)
 
-    def add_message(self, message, level=logging.INFO):
-        self.logger.log(level, message)
-        self.notify(self.logger.handlers[0].last_log)
+    def add_warning(self, message, traceback=False):
+        self._add_message(logging.WARNING, message, traceback)
 
-logger = Logger()
+    def add_info(self, message, traceback=False):
+        self._add_message(logging.INFO, message, traceback)
+
+    def add_debug(self, message, traceback=False):
+        self._add_message(logging.DEBUG, message, traceback)
+
+    def add_message(self, message, traceback=False):
+        self._add_message(logging.NOTSET, message, traceback)
+
+logger = Logger(__name__)

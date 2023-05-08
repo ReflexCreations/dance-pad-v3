@@ -1,5 +1,4 @@
 from .logger import logger
-from .observer import Observer
-from .subject_widgets import SButton
-
 from .system import system
+from .module_base import ModuleBase
+from .decorators import qt_slot

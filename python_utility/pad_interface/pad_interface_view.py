@@ -1,13 +1,12 @@
-from PyQt5.QtWidgets import QWidget, QComboBox, QHBoxLayout
-from utils import SButton
+from PyQt5.QtWidgets import QWidget, QComboBox, QHBoxLayout, QPushButton
 
 class PadInterfaceView(QWidget):
     def __init__ (self, parent=None):
         super().__init__(parent)
 
-        self.connect_button = SButton('Connect')
-        self.disconnect_button = SButton('Disconnect')
-        self.refresh_button = SButton('Refresh')
+        self.connect_button = QPushButton('Connect')
+        self.disconnect_button = QPushButton('Disconnect')
+        self.refresh_button = QPushButton('Refresh')
         self.available_pad_list = QComboBox()
 
         layout = QHBoxLayout()

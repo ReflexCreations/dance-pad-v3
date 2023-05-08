@@ -1,24 +1,15 @@
-import sys
-import traceback
 from PyQt5.QtWidgets import QApplication
-from injector import Injector
-from app_module import AppModule
-from main_window import MainWindow
+from .app_module import setup_injector
+from .main_window import MainWindow
+from .mediator import Mediator
 
-class Application:
+class Application(QApplication):
     def __init__(self):
-        self.app = QApplication(sys.argv)
-        injector = Injector([AppModule()])
+        super().__init__([])
+        injector = setup_injector()
         self.main_window = injector.get(MainWindow)
+        self.mediator = injector.get(Mediator)
 
     def run(self):
         self.main_window.show()
-        sys.exit(self.app.exec_())
-
-if __name__ == "__main__":
-    try:
-        application = Application()
-        application.run()
-    except Exception as e:
-        traceback.print_exc()
-        sys.exit()
+        self.exec()

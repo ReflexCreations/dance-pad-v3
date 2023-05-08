@@ -1,17 +1,14 @@
 from injector import inject
-from utils import logger, Observer
-from .log_viewer_model import LogViewerModel
-from .log_viewer_view import LogViewerView
+from . import LogViewerModel, LogViewerView
+from ..utils import qt_slot
 
-class LogViewerController(Observer):
+class LogViewerController():
     @inject
-    def __init__(self,
-                 model: LogViewerModel,
-                 view: LogViewerView):
+    def __init__(self, model: LogViewerModel, view: LogViewerView):
         self.model = model
         self.view = view
-        logger.add_observer(self)
 
+    @qt_slot()
     def update(self, message):
         self.model.add_message(message)
         self.view.update_log(message)
